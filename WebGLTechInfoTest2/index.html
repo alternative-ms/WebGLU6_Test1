@@ -7,11 +7,11 @@
     // Fix 1
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
 
-    <title>Tetris_Test4</title>
+    <title>Mod1</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
 
-    // Fix 2
+    // Fix 2-B
     <style>
       html, body { 
         width: 100%; 
@@ -20,7 +20,6 @@
         margin: 0; 
         padding: 0; 
         overflow: hidden; 
-        background: #000; 
       }
       #unity-container { 
         width: 100%; 
@@ -67,11 +66,10 @@
         productVersion: "1.0"
       };
 
-      // Fix 3
+      // Fix 3-B
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         container.className = "unity-mobile";
-        config.devicePixelRatio = window.devicePixelRatio || 1; 
-         if (config.devicePixelRatio > 2) { config.devicePixelRatio = 2; }
+        config.devicePixelRatio = 1; 
       }
 
       canvas.style.background = "url('" + buildUrl + "/') center / cover";
