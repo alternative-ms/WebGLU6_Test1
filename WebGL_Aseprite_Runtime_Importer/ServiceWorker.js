@@ -1,9 +1,9 @@
 const cacheName = "ALTernative.MS-Aseprite To PNG Exporter-0.1";
 const contentToCache = [
-    "Build/WebGL_Aseprite_Runtime_Importer_Test5.loader.js",
-    "Build/WebGL_Aseprite_Runtime_Importer_Test5.framework.js.unityweb",
-    "Build/WebGL_Aseprite_Runtime_Importer_Test5.data.unityweb",
-    "Build/WebGL_Aseprite_Runtime_Importer_Test5.wasm.unityweb",
+    "Build/WebGL_Aseprite_Runtime_Importer_Test6.loader.js",
+    "Build/WebGL_Aseprite_Runtime_Importer_Test6.framework.js.unityweb",
+    "Build/WebGL_Aseprite_Runtime_Importer_Test6.data.unityweb",
+    "Build/WebGL_Aseprite_Runtime_Importer_Test6.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
